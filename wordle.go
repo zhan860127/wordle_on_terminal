@@ -41,7 +41,7 @@ func display_word(word string, color_vector [WORD_LENGTH]string) {
 	fmt.Println()
 }
 
-func () {
+func main() {
 	rand.Seed(time.Now().Unix())
 
 	res, err := http.Get(WORDS_URL)

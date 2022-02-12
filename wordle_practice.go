@@ -8,7 +8,7 @@ import (
 
 const WORDS_URL = "https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt"
 
-func main() {
+func () {
 
 	reader := bufio.NewReader(os.Stdin)
 	s1, _ := reader.ReadString('\n')
